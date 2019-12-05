@@ -1,9 +1,9 @@
-import Value from "./Models/Value.js";
+import Gif from "./Models/Gif.js";
 
 let _state = {
-  activeValue: new Value({ title: "Value" }),
-  /** @type {Value[]} */
-  values: []
+  activeValue: new Gif({ title: "Value" }),
+  /** @type {Gif[]} */
+  gifs: []
 };
 
 /** Collection of listeners to be called based on keyed state changes
@@ -11,7 +11,7 @@ let _state = {
  */
 let _listeners = {
   activeValue: [],
-  values: []
+  gifs: []
 };
 
 //NOTE You should not need to change the code from this point down

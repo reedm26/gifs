@@ -1,6 +1,6 @@
 import store from "../store.js";
 
-class ValuesService {}
+class GifsService {}
 
-const service = new ValuesService();
+const service = new GifsService();
 export default service;

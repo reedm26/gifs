@@ -20,8 +20,30 @@
         </div>
       </div>
     </header>
-    <main></main>
-    <footer></footer>
+    <main class="container-fluid text-center">
+      <div class="row">
+        <div class="col-6" style="font-family: family;">
+          <h3>
+            Random Gif
+
+            <button
+              class="btn btn-warning"
+              onclick="app.gifsController.findGifsAsync()"
+            >
+              Search
+            </button>
+          </h3>
+          <!-- this is where my gifs are put -->
+          <div id="gifs"></div>
+        </div>
+        <div class="col-6"><h3>My Gifs</h3></div>
+        <!-- this is where my gif list is  -->
+        <div id="mygifs"></div>
+      </div>
+    </main>
+    <footer>
+      <div style="font-family: fantasy;"></div>
+    </footer>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"
       integrity="sha256-XmdRbTre/3RulhYk/cOBUMpYlaAp2Rpo/s556u0OIKk="

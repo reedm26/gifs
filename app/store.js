@@ -1,8 +1,7 @@
 import Gif from "./Models/Gif.js";
 
 let _state = {
-  activeValue: new Gif({ title: "Value" }),
-  /** @type {Gif[]} */
+  myGifs: [],
   gifs: []
 };
 
@@ -10,7 +9,7 @@ let _state = {
  * @type {{[x:string]: function[]}}
  */
 let _listeners = {
-  activeValue: [],
+  myGifs: [],
   gifs: []
 };
 
